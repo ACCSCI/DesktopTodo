@@ -1,0 +1,70 @@
+{
+  "passed": 3,
+  "method": "Actual overlapping ordinary process, Computer Use activation/screenshot, native WindowFromPoint",
+  "desktop": {
+    "handle": 27003060,
+    "title": "桌面模式验收",
+    "class": "DesktopTodo.Note",
+    "parent": 65854,
+    "parentClass": "Progman",
+    "style": 1442840576,
+    "extended": 128,
+    "rect": [
+      80,
+      80,
+      760,
+      840
+    ],
+    "centerHit": {
+      "handle": 13768376,
+      "pid": 60136,
+      "class": "Button",
+      "parent": 46667178,
+      "root": 32052890
+    }
+  },
+  "topmostAfterOrdinaryActivated": {
+    "handle": 27003060,
+    "title": "桌面模式验收",
+    "class": "DesktopTodo.Note",
+    "parent": 0,
+    "parentClass": null,
+    "style": 2516582400,
+    "extended": 136,
+    "rect": [
+      80,
+      80,
+      760,
+      840
+    ],
+    "centerHit": {
+      "handle": 27003060,
+      "pid": 33688,
+      "class": "DesktopTodo.Note",
+      "parent": 0,
+      "root": 27003060
+    }
+  },
+  "ordinaryAfterOrdinaryActivated": {
+    "handle": 27003060,
+    "title": "桌面模式验收",
+    "class": "DesktopTodo.Note",
+    "parent": 0,
+    "parentClass": null,
+    "style": 382664704,
+    "extended": 262400,
+    "rect": [
+      80,
+      80,
+      760,
+      840
+    ],
+    "centerHit": {
+      "handle": 13768376,
+      "pid": 60136,
+      "class": "Button",
+      "parent": 46667178,
+      "root": 32052890
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "desktop-todo-web-comparison",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest run",
+    "dev": "vite --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@lucide/svelte": "1.60.0",
+    "flowbite-svelte": "1.33.1",
+    "svelte": "5.57.2",
+    "svelte-dnd-action": "0.9.80"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "7.3.1",
+    "@tailwindcss/vite": "4.3.3",
+    "@testing-library/svelte": "5.4.2",
+    "jsdom": "30.1.3",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3",
+    "vite": "8.3.5",
+    "vitest": "5.0.5"
+  }
+}

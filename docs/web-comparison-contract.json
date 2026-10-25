@@ -1,0 +1,18 @@
+{
+  "passed": 13,
+  "checks": [
+    "two real WebView notes reach rendered readiness",
+    "shared native domain seeds expected tasks",
+    "UTF-8 native bridge persists Unicode",
+    "native status mutation renders",
+    "native filtering supplies visible IDs",
+    "native reorder persists exact order",
+    "lock state crosses bridge",
+    "unlock state crosses bridge",
+    "topmost mode updates native model",
+    "ordinary mode restores native model",
+    "unsupported desktop mode fails without changing model",
+    "isolated SQLite database exists",
+    "host closes cleanly"
+  ]
+}

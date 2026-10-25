@@ -1,0 +1,22 @@
+pre-commit:
+  commands:
+    nim-ui:
+      always_run: true
+      run: npm run test:nim-ui
+    quality:
+      always_run: true
+      run: npm run check
+    native:
+      always_run: true
+      run: npm run test:native
+pre-push:
+  commands:
+    nim-ui:
+      always_run: true
+      run: npm run test:nim-ui
+    quality:
+      always_run: true
+      run: npm run check
+    native:
+      always_run: true
+      run: npm run test:native

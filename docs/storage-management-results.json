@@ -1,0 +1,27 @@
+{
+  "passed": 21,
+  "checks": [
+    "desktop input acquires native keyboard focus",
+    "native input commits Unicode content through the real editor handler",
+    "database compaction preserves all user content",
+    "cancelling clear at confirmation 1 leaves all data untouched",
+    "cancelling clear at confirmation 2 leaves all data untouched",
+    "cancelling clear at confirmation 3 leaves all data untouched",
+    "relocation switches the live database without losing notes",
+    "relocation preserves existing manual backups",
+    "obsolete active database is removed only after successful migration",
+    "storage preference persists beside the original portable root",
+    "existing destination databases are never overwritten",
+    "storage preference can be locked for failure injection",
+    "settings write failure rolls back the new active database and retains the old data",
+    "three confirmations clear the database and discard undo history",
+    "clear creates no backup and preserves existing backup files",
+    "cleared tasks are absent from the physical active database",
+    "manual backups can restore cleared data when explicitly requested",
+    "default database lives directly beside the executable despite a different working directory",
+    "in-folder storage locations persist as portable relative paths",
+    "restart follows the saved location and retains migrated tasks",
+    "a UI executable in a child folder reconnects to existing parent data without replacing either database"
+  ],
+  "directory": "D:\\Projects\\DesktopTodo\\.tools\\storage-management\\1792826237943162000"
+}

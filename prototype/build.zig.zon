@@ -1,0 +1,8 @@
+.{
+    .name = .prototype,
+    .fingerprint = 0xa36a5ae45a707070,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{ .native_sdk = .{ .path = "../.tools/native-0.11.0" } },
+    .paths = .{ "build.zig", "build.zig.zon", "src", "assets", "app.json", "README.md" },
+}

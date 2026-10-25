@@ -1,0 +1,27 @@
+{
+  "measuredAt": "2026-10-23T11:47:39.2450941+08:00",
+  "executableBytes": 1406976,
+  "note": "Local Windows measurement; desktop locked; automation enabled, no snapshot polling during idle sample.",
+  "samples": [
+    {
+      "notes": 1,
+      "tasksPerNote": 10,
+      "seconds": 10.005,
+      "cpuSeconds": 0.0,
+      "oneCoreCpuPercent": 0.0,
+      "workingSetMiB": 18.26,
+      "privateMiB": 2.31,
+      "handles": 157
+    },
+    {
+      "notes": 10,
+      "tasksPerNote": 100,
+      "seconds": 10.008,
+      "cpuSeconds": 0.0,
+      "oneCoreCpuPercent": 0.0,
+      "workingSetMiB": 35.54,
+      "privateMiB": 2.58,
+      "handles": 157
+    }
+  ]
+}

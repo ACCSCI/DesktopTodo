@@ -1,0 +1,8 @@
+{
+  "Context": "ReleaseFast Zig scaffold, automation enabled, one window, 10 second sample",
+  "ElapsedSeconds": 10.0751797,
+  "CpuSeconds": 0.171875,
+  "WorkingSetMiB": 64.38,
+  "PrivateMiB": 196.77,
+  "Handles": 882
+}

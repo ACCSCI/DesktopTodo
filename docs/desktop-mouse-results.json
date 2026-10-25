@@ -1,0 +1,57 @@
+{
+  "context": "Actual mouse input through Computer Use and read-only Win32 inspection",
+  "lockedClick": {
+    "noteCount": 0,
+    "receiverClicks": 1
+  },
+  "unlockedClick": {
+    "noteCount": 1,
+    "receiverClicks": 1
+  },
+  "relocked": true,
+  "ordinaryWindowOccludesDesktopNote": true,
+  "note": {
+    "handle": 1710368,
+    "title": "Todo Overlay Probe",
+    "class": "NativeSdkWindowsHost",
+    "parent": 65854,
+    "parentClass": "Progman",
+    "style": 1409941504,
+    "extended": 524464,
+    "rect": [
+      1080,
+      240,
+      1680,
+      600
+    ],
+    "centerHit": {
+      "handle": 50796524,
+      "pid": 60860,
+      "class": "Button",
+      "parent": 42407336,
+      "root": 2234650
+    }
+  },
+  "control": {
+    "handle": 55448214,
+    "title": "Todo Unlock Probe",
+    "class": "NativeSdkWindowsHost",
+    "parent": 65854,
+    "parentClass": "Progman",
+    "style": 1409941504,
+    "extended": 524432,
+    "rect": [
+      1500,
+      240,
+      1680,
+      320
+    ],
+    "centerHit": {
+      "handle": 2234650,
+      "pid": 60860,
+      "class": "TkTopLevel",
+      "parent": 0,
+      "root": 2234650
+    }
+  }
+}

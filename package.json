@@ -1,0 +1,23 @@
+{
+  "name": "desktop-todo-validation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check:lines": "node scripts/check-lines.mjs",
+    "check": "npm run check:lines && npm test && npm run test:web",
+    "test:web": "npm test --prefix web-comparison",
+    "build:web": "node scripts/build-web-comparison.mjs",
+    "test:probe": "node scripts/native.mjs test window-probe",
+    "test:typescript": "node scripts/native.mjs test prototype",
+    "test:native": "npm run test:app && npm run test:probe && npm run test:typescript && npm run test:sdk",
+    "test:sdk": "node scripts/native.mjs test sdk-comparison",
+    "build:sdk": "node scripts/native.mjs build sdk-comparison -Dplatform=windows -Dautomation=true",
+    "build:probe": "node scripts/native.mjs build window-probe -Dplatform=windows -Dautomation=true",
+    "test:desktop": "pwsh -NoProfile -File scripts/desktop-smoke.ps1",
+    "test:app": "node scripts/build-app.mjs test",
+    "build:app": "node scripts/build-app.mjs release",
+    "build:nim-ui": "pwsh -NoProfile -File scripts/build-nim-ui.ps1",
+    "test:nim-ui": "pwsh -NoProfile -File scripts/test-nim-ui.ps1"
+  }
+}

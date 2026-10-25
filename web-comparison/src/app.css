@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@source "../node_modules/flowbite-svelte/dist";
+@theme {
+  --color-primary-50: #f5f3ff;
+  --color-primary-100: #ede9fe;
+  --color-primary-200: #ddd6fe;
+  --color-primary-300: #c4b5fd;
+  --color-primary-400: #a78bfa;
+  --color-primary-500: #8b5cf6;
+  --color-primary-600: #7c3aed;
+  --color-primary-700: #6d28d9;
+  --color-primary-800: #5b21b6;
+  --color-primary-900: #4c1d95;
+}
+:root { font-family: "Segoe UI", "Microsoft YaHei UI", sans-serif; color: #334155; background: #f8fafc; font-size: 14px; }
+body { margin: 0; }
+main { height: 100dvh; display: flex; flex-direction: column; padding: 16px; gap: 12px; background: color-mix(in srgb, var(--note-color) 40%, white); }
+header { display: flex; align-items: center; gap: 9px; min-height: 34px; }
+h1 { font-size: 18px; font-weight: 600; flex: 1; margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lock-button { width: 34px; height: 34px; display: grid; place-items: center; flex-shrink: 0; }
+.toolbar { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+section { flex: 1; overflow: auto; min-height: 0; }
+.task { display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 6px; border-radius: 9px; }
+.task:hover { background: #ffffff99; }
+.grip { display: flex; color: #94a3b8; cursor: grab; }
+.task-icon { width: 14px; text-align: center; line-height: 1; }
+.task-text { flex: 1; overflow-wrap: anywhere; }
+.done { text-decoration: line-through; opacity: .5; }
+.status { border: 0; border-radius: 6px; background: #ffffffa0; padding: 3px 6px; font-size: 11px; white-space: nowrap; }
+form { display: flex; gap: 8px; align-items: center; }
+form > :first-child { flex: 1; min-width: 0; }
+footer { font-size: 11px; color: #64748b; text-align: right; }
+[role="alert"] { color: #b91c1c; }

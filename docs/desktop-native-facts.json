@@ -1,0 +1,286 @@
+{
+  "desktop": {
+    "pid": 19296,
+    "windows": [
+      {
+        "handle": 1448224,
+        "title": "Window Probe",
+        "class": "NativeSdkWindowsHost",
+        "parent": 0,
+        "parentClass": null,
+        "style": 80674816,
+        "extended": 272,
+        "rect": [
+          98,
+          98,
+          1084,
+          809
+        ],
+        "centerHit": {
+          "handle": 198974,
+          "pid": 48552,
+          "class": "Chrome_RenderWidgetHostHWND",
+          "parent": 264630,
+          "root": 264630
+        }
+      },
+      {
+        "handle": 12128986,
+        "title": "Todo Unlock Probe",
+        "class": "NativeSdkWindowsHost",
+        "parent": 65854,
+        "parentClass": "Progman",
+        "style": 1409941504,
+        "extended": 524432,
+        "rect": [
+          1500,
+          240,
+          1680,
+          320
+        ],
+        "centerHit": {
+          "handle": 198974,
+          "pid": 48552,
+          "class": "Chrome_RenderWidgetHostHWND",
+          "parent": 264630,
+          "root": 264630
+        }
+      },
+      {
+        "handle": 12982356,
+        "title": "Todo Overlay Probe",
+        "class": "NativeSdkWindowsHost",
+        "parent": 65854,
+        "parentClass": "Progman",
+        "style": 1409941504,
+        "extended": 524464,
+        "rect": [
+          1080,
+          240,
+          1680,
+          600
+        ],
+        "centerHit": {
+          "handle": 198974,
+          "pid": 48552,
+          "class": "Chrome_RenderWidgetHostHWND",
+          "parent": 264630,
+          "root": 264630
+        }
+      }
+    ]
+  },
+  "unlocked": {
+    "pid": 19296,
+    "windows": [
+      {
+        "handle": 1448224,
+        "title": "Window Probe",
+        "class": "NativeSdkWindowsHost",
+        "parent": 0,
+        "parentClass": null,
+        "style": 80674816,
+        "extended": 272,
+        "rect": [
+          98,
+          98,
+          1084,
+          809
+        ],
+        "centerHit": {
+          "handle": 198974,
+          "pid": 48552,
+          "class": "Chrome_RenderWidgetHostHWND",
+          "parent": 264630,
+          "root": 264630
+        }
+      },
+      {
+        "handle": 12128986,
+        "title": "Todo Unlock Probe",
+        "class": "NativeSdkWindowsHost",
+        "parent": 65854,
+        "parentClass": "Progman",
+        "style": 1409941504,
+        "extended": 524432,
+        "rect": [
+          1500,
+          240,
+          1680,
+          320
+        ],
+        "centerHit": {
+          "handle": 198974,
+          "pid": 48552,
+          "class": "Chrome_RenderWidgetHostHWND",
+          "parent": 264630,
+          "root": 264630
+        }
+      },
+      {
+        "handle": 13047892,
+        "title": "Todo Overlay Probe",
+        "class": "NativeSdkWindowsHost",
+        "parent": 65854,
+        "parentClass": "Progman",
+        "style": 1409941504,
+        "extended": 524432,
+        "rect": [
+          1080,
+          240,
+          1680,
+          600
+        ],
+        "centerHit": {
+          "handle": 198974,
+          "pid": 48552,
+          "class": "Chrome_RenderWidgetHostHWND",
+          "parent": 264630,
+          "root": 264630
+        }
+      }
+    ]
+  },
+  "topmost": {
+    "pid": 19296,
+    "windows": [
+      {
+        "handle": 12194522,
+        "title": "Todo Unlock Probe",
+        "class": "NativeSdkWindowsHost",
+        "parent": 0,
+        "parentClass": null,
+        "style": 2483683328,
+        "extended": 524312,
+        "rect": [
+          1500,
+          240,
+          1680,
+          320
+        ],
+        "centerHit": {
+          "handle": 8587344,
+          "pid": 19296,
+          "class": "NativeSdkGpuSurface",
+          "parent": 12194522,
+          "root": 12194522
+        }
+      },
+      {
+        "handle": 13113428,
+        "title": "Todo Overlay Probe",
+        "class": "NativeSdkWindowsHost",
+        "parent": 0,
+        "parentClass": null,
+        "style": 2483683328,
+        "extended": 524312,
+        "rect": [
+          1080,
+          240,
+          1680,
+          600
+        ],
+        "centerHit": {
+          "handle": 2495718,
+          "pid": 19296,
+          "class": "NativeSdkGpuSurface",
+          "parent": 13113428,
+          "root": 13113428
+        }
+      },
+      {
+        "handle": 1448224,
+        "title": "Window Probe",
+        "class": "NativeSdkWindowsHost",
+        "parent": 0,
+        "parentClass": null,
+        "style": 80674816,
+        "extended": 272,
+        "rect": [
+          98,
+          98,
+          1084,
+          809
+        ],
+        "centerHit": {
+          "handle": 198974,
+          "pid": 48552,
+          "class": "Chrome_RenderWidgetHostHWND",
+          "parent": 264630,
+          "root": 264630
+        }
+      }
+    ]
+  },
+  "normal": {
+    "pid": 19296,
+    "windows": [
+      {
+        "handle": 13178964,
+        "title": "Todo Unlock Probe",
+        "class": "NativeSdkWindowsHost",
+        "parent": 0,
+        "parentClass": null,
+        "style": 2483683328,
+        "extended": 524304,
+        "rect": [
+          1500,
+          240,
+          1680,
+          320
+        ],
+        "centerHit": {
+          "handle": 2561254,
+          "pid": 19296,
+          "class": "NativeSdkGpuSurface",
+          "parent": 13178964,
+          "root": 13178964
+        }
+      },
+      {
+        "handle": 12260058,
+        "title": "Todo Overlay Probe",
+        "class": "NativeSdkWindowsHost",
+        "parent": 0,
+        "parentClass": null,
+        "style": 349110272,
+        "extended": 272,
+        "rect": [
+          1080,
+          240,
+          1706,
+          671
+        ],
+        "centerHit": {
+          "handle": 8652880,
+          "pid": 19296,
+          "class": "NativeSdkGpuSurface",
+          "parent": 12260058,
+          "root": 12260058
+        }
+      },
+      {
+        "handle": 1448224,
+        "title": "Window Probe",
+        "class": "NativeSdkWindowsHost",
+        "parent": 0,
+        "parentClass": null,
+        "style": 80674816,
+        "extended": 272,
+        "rect": [
+          98,
+          98,
+          1084,
+          809
+        ],
+        "centerHit": {
+          "handle": 198974,
+          "pid": 48552,
+          "class": "Chrome_RenderWidgetHostHWND",
+          "parent": 264630,
+          "root": 264630
+        }
+      }
+    ]
+  }
+}

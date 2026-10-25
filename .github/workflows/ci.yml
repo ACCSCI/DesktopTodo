@@ -1,0 +1,70 @@
+name: Quality gates
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  product:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: vercel-labs/setup-zig@v1
+        with:
+          version: 0.16.0
+      - name: Install verified SQLite sources and hooks
+        shell: pwsh
+        run: ./scripts/bootstrap-app.ps1
+      - run: npm ci --prefix web-comparison --no-audit --no-fund
+      - run: npm run check
+      - run: npm run test:app
+      - run: npm run build:app
+      - uses: actions/upload-artifact@v4
+        with:
+          name: DesktopTodo-windows-x64
+          path: dist/DesktopTodo.exe
+  quality:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm ci --prefix web-comparison --no-audit --no-fund
+      - run: npm run check
+  native:
+    runs-on: windows-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - uses: vercel-labs/setup-zig@v1
+        with:
+          version: 0.16.0
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.native/toolchains/scriptc
+            .tools/toolchain-downloads
+            .tools/compiler-parts
+          key: native-0.11.0-scriptc-0.3.0-windows-x64
+      - name: Install pinned SDK and verified compiler
+        shell: pwsh
+        run: |
+          ./scripts/bootstrap-app.ps1
+          ./scripts/bootstrap.ps1
+      - run: npm run test:native
+      - run: npm run build:probe
+      - name: Windows automation smoke
+        shell: pwsh
+        run: ./scripts/windows-smoke.ps1
+      - name: Desktop host integration
+        shell: pwsh
+        run: ./scripts/desktop-smoke.ps1

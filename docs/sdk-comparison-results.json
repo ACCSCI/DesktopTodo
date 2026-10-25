@@ -1,0 +1,47 @@
+{
+  "measuredAt": "2026-10-23T17:26:00+0800",
+  "samples": [
+    {
+      "implementation": "Native SDK 0.11.0 / Geist",
+      "notes": 1,
+      "tasksPerNote": 10,
+      "processCount": 1,
+      "seconds": 10.002,
+      "oneCoreCpuPercent": 2.031,
+      "workingSetSumMiB": 80.93,
+      "privateCommitSumMiB": 204.52
+    },
+    {
+      "implementation": "Native SDK 0.11.0 / Geist",
+      "notes": 5,
+      "tasksPerNote": 100,
+      "processCount": 1,
+      "seconds": 10.001,
+      "oneCoreCpuPercent": 7.031,
+      "workingSetSumMiB": 112.83,
+      "privateCommitSumMiB": 234.59
+    },
+    {
+      "implementation": "C++20 / Win32",
+      "notes": 1,
+      "tasksPerNote": 10,
+      "processCount": 1,
+      "seconds": 10.0,
+      "oneCoreCpuPercent": 0.0,
+      "workingSetSumMiB": 20.55,
+      "privateCommitSumMiB": 2.63
+    },
+    {
+      "implementation": "C++20 / Win32",
+      "notes": 5,
+      "tasksPerNote": 100,
+      "processCount": 1,
+      "seconds": 10.0,
+      "oneCoreCpuPercent": 0.0,
+      "workingSetSumMiB": 21.57,
+      "privateCommitSumMiB": 3.52
+    }
+  ],
+  "sdkExecutableBytes": 8599040,
+  "method": "One sample per workload, no repeats. Ordinary overlapping unlocked windows, 680x760 physical outer bounds. 2s settle + 10s idle, complete process tree. CPU is relative to one core. Private commit is not resident RAM. SDK Todo is memory-only; C++ baseline persists SQLite. SDK 0.11.0 supports four auxiliary UiApp windows, so the real multiwindow sample is five notes, not ten. Automation stays enabled."
+}
